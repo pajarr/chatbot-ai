@@ -27,6 +27,11 @@ return [
     'resend' => [
         'key' => env('RESEND_KEY'),
     ],
+    
+    'dialogflow' => [
+        'project_id' => env('DIALOGFLOW_PROJECT_ID'),
+        'credentials' => env('DIALOGFLOW_CREDENTIALS'),
+    ],
 
     'slack' => [
         'notifications' => [
